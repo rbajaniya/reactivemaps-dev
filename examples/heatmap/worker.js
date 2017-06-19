@@ -57,7 +57,7 @@ module.exports = {
     let heatmapAppConfig = this.heatmapAppConfig;
     let timer = 2000;
     this.heatmapApp = new Appbase({
-      url: heatmapAppConfig.appbase.app,
+      url: 'https://scalr.api.appbase.io',
       appname: heatmapAppConfig.appbase.app,
       username: heatmapAppConfig.appbase.username,
       password: heatmapAppConfig.appbase.password
